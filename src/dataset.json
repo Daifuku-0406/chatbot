@@ -1,0 +1,100 @@
+{
+    "init": {
+        "answers": [
+            {"content": "自己紹介をして欲しい", "nextId": "self_introduction"},
+            {"content": "よう実について語って欲しい※ネタバレ注意報", "nextId": "talking_youjitsu"},
+            {"content": "なんか喋れや", "nextId": "majidesuka"},
+            {"content": "お付き合いしたい", "nextId": "dating"}
+        ],
+        "question": "こんにちは！大福へのご用件はなんでしょうか？"
+    },
+    "self_introduction": {
+        "answers": [
+            {"content": "年齢を教えて欲しい", "nextId": "years"},
+            {"content": "趣味を教えて欲しい", "nextId": "hobbies"},
+            {"content": "性格を教えて欲しい", "nextId": "personality"},
+            {"content": "その他", "nextId": "others"}
+        ],
+        "question": "何について聞きたいですか？？"
+    },
+    "years": {
+        "answers": [
+            {"content": "趣味を教えて欲しい", "nextId": "hobbies"},
+            {"content": "性格を教えて欲しい", "nextId": "personality"},
+            {"content": "その他", "nextId": "others"},
+            {"content": "最初の質問に戻る", "nextId": "init"}
+        ],
+        "question": "2005年生まれの15歳、今は男子校に通う中学3年生です。その他何か聞きたいことはありますか？"
+    },
+    "hobbies": {
+        "answers": [
+            {"content": "年齢を教えて欲しい", "nextId": "years"},
+            {"content": "性格を教えて欲しい", "nextId": "personality"},
+            {"content": "その他", "nextId": "others"},
+            {"content": "最初の質問に戻る", "nextId": "init"}
+        ],
+        "question": "最近の趣味は読書とプログラミングです。小説はラノベも一般文芸も基本面白ければなんでも読みます。\n その他何か聞きたいことはありますか？"
+    },
+    "personality": {
+        "answers": [
+            {"content": "年齢を教えて欲しい", "nextId": "years"},
+            {"content": "趣味を教えて欲しい", "nextId": "hobbies"},
+            {"content": "その他", "nextId": "others"},
+            {"content": "最初の質問に戻る", "nextId": "init"}
+        ],
+        "question": "非常に努力家で、非常に優しく、リーダーシップに溢れています。その上責任感も強く多くの人から信頼され、慕われています。常に向上心を持ち続け、様々な分野に学習いよくを燃やすその精神は教員室でも話題になっているとやらなんとやら... \n　その他何か聞きたいことはありますか？"
+    },
+    "others": {
+        "answers": [
+            {"content":"問い合わせる", "nextId":"contact"},
+            {"content": "最初の質問に戻る", "nextId": "init"}
+        ],
+        "question": "「問い合わせる」からお名前、Twitter ID、質問内容をご入力ください。後ほど大福がDMにて返信いたします。"
+    },
+    "talking_youjitsu": {
+        "answers": [
+            {"content": "推しは誰？", "nextId": "oshi"},
+            {"content": "1番好きな巻は何？", "nextId": "favorite_number"},
+            {"content":"その他で好きなラノベは何？", "nextId":"other_lanobe"},
+            {"content": "最初の質問に戻る", "nextId": "init"}
+        ],
+        "question": "よう実は自分の中で不動の一位。学園物語の中に戦闘シーン、頭脳戦、ラブコメが全て超高レベルにつぎ込まれていて一巻一巻とても読んでいて楽しいです。何かもっと聞きたいことはありますか？"
+    },
+    "oshi": {
+        "answers": [
+            {"content": "1番好きな巻は何？", "nextId": "favorite_number"},
+            {"content":"その他で好きなラノベは何？", "nextId":"other_lanobe"},
+            {"content": "最初の質問に戻る", "nextId": "init"}
+        ],
+        "question": "推しは坂柳と軽井沢ですね。といってもよう実のヒロイン達は全員可愛すぎでよく推しが変わってしまいます。9巻読むと毎回毎回一定期間一之瀬推しになります。\nその他に質問ありますか？"
+    },
+    "favorite_number": {
+        "answers": [
+            {"content": "さらに詳細を知りたい", "nextId": "https://youtu.be/tIzE7hUDbBM"},
+            {"content": "コミュニティに参加したい", "nextId": "https://torahack.web.app/community/"},
+            {"content": "最初の質問に戻る", "nextId": "init"}
+        ],
+        "question": "全巻大好き、というのが本音なとこなのですが、強いていうなら7、7.5、9あたりですかね。\n　その他質問はありますか？"
+    },
+    "other_lanobe":{
+        "answers":[
+            {"content": "推しは誰？", "nextId": "oshi"},
+            {"content": "1番好きな巻は何？", "nextId": "favorite_number"},
+            {"content": "最初の質問に戻る", "nextId":"init"}
+        ],
+        "question": "ダンまち、たんもし、ライアラ、髭を剃る あたりが好きですね。何かおすすめのラノベがあったらDMにでも教えてください！ \n　その他質問はありますか？"
+    },
+    "majidesuka":{
+        "answers":[
+            {"content":"最初の質問に戻る", "nextId":"init"}
+        ],
+        "question":"めんどくさい"
+    },
+    "dating": {
+        "answers": [
+            {"content": "DMする", "nextId": "https://twitter.com/Daifuku_michi?s=20"},
+            {"content": "最初の質問に戻る", "nextId": "init"}
+        ],
+        "question": "ありがとー！...気軽にDMしてください😘"
+    }
+}
